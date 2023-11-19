@@ -1,5 +1,6 @@
 :root {
 	--penguin-face: white; /* Task: Create a custom CSS property called --penguin-face, and set it to white. */
+	--penguin-picorna: orange;
 }
 
 body {
@@ -135,7 +136,7 @@ body {
 
 .beak {
 	height: 10%;
-	background-color: orange;
+	background-color: var(--penguin-picorna);
 	border-radius: 50%;
 }
 
@@ -187,6 +188,14 @@ body {
 	left: 25%;
 	border-radius: 0% 0% 100% 100%;
 	opacity: 70%; /* Task: Increase the pseudo-element's transparency by 30%. */
+}
+
+.foot {
+	width: 15%;
+	height: 30%;
+	background-color: var(--penguin-picorna);
+	top: 85%;
+	border-radius: 50%;
 }
 
 .ground {
