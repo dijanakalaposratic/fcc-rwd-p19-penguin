@@ -239,3 +239,22 @@ body {
 	position: absolute;
 	margin-top: -58px;
 }
+
+@keyframes wave {
+	10% {
+		transform: rotate(110deg) scaleX(-1);
+	}
+	20% {
+		transform: rotate(130deg) scaleX(-1);
+	}
+	30% {
+		transform: rotate(110deg) scaleX(-1);
+	}
+	40% {
+		transform: rotate(130deg) scaleX(-1);
+	}
+}
+/* Task: Give wave four waypoints starting at 10%, and incrementing by 10%.
+    Within the first waypoint, rotate to 110deg, and retain the scaling of the left arm.
+    Within the second waypoint, rotate to 130deg, and retain the scaling of the left arm.
+    For the third and fourth waypoints, repeat the transform pattern once more. */
